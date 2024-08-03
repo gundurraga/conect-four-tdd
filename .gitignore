@@ -1,1 +1,45 @@
-.DS*
+# Ignore bundler config
+/.bundle
+
+# Ignore all logfiles and tempfiles
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore Byebug command history file
+.byebug_history
+
+# Ignore Ruby version file
+.ruby-version
+
+# Ignore environment variables file
+.env
+
+# Ignore Gemfile.lock as it's meant to be different across different environments
+Gemfile.lock
+
+# Ignore RSpec failure tracking file
+spec/examples.txt
+
+# Ignore coverage reports
+/coverage/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore RubyMine project files
+.idea/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore any compiled Ruby files
+*.rbc
+
+# Ignore documentation cache
+/.yardoc/
+/doc/
+
+# Ignore installed gem files
+/vendor/bundle/
